@@ -1,5 +1,5 @@
 # ALURA PLUS
 
-> Resultado do curso Praticando HTML e CSS da Alura
+> Result to the Course "Praticando HTML e CSS" from Alura
 
-> Usando **SCSS**
+> Using **SCSS**
