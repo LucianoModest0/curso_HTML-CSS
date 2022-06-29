@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(225deg, 100%, 2%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.principal {
+  background-image: url("/assets/img/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 100vh;
+}
+
+.container__botao {
+  background-color: hsl(213deg, 93%, 53%);
+  border-radius: 5px;
+  padding: 1em;
+  color: hsl(0deg, 0%, 100%);
+}
