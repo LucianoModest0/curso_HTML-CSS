@@ -1,0 +1,23 @@
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: $main-white;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: $grey;
+}
