@@ -1,0 +1,35 @@
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo{
+    margin-bottom: 40px;
+}
+
+.rodape__lista {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.lista__link > a {
+    font-size: 16px;  
+    color: $main-white;
+    text-decoration: none;
+}
+
+.lista__link > a:hover {
+    color: $blue;
+}
+
+.rodape__texto {
+    color: $grey;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+.rodape__texto:last-child {
+    margin-bottom: 100px;
+}

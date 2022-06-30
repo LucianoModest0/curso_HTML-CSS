@@ -9,6 +9,11 @@
     
 }
 
+.container__botao:hover {
+    background-color: $blue-hover;
+    color: $black-background;
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 1px solid $main-white;

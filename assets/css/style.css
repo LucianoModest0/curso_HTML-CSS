@@ -13,6 +13,11 @@
   margin-bottom: 1em;
 }
 
+.container__botao:hover {
+  background-color: rgb(142, 189, 247);
+  color: hsl(225deg, 100%, 2%);
+}
+
 .botao_secundario {
   background-color: transparent;
   border: 1px solid hsl(0deg, 0%, 100%);
@@ -89,4 +94,67 @@ body {
 .botao__terceario {
   display: inline-block;
   margin-top: 1em;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 48px;
+}
+
+.dispositivos__lista {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5em 0;
+}
+
+.lista__item {
+  font-size: 32px;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.rodape {
+  text-align: center;
+}
+
+.rodape__logo {
+  margin-bottom: 40px;
+}
+
+.rodape__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lista__link > a {
+  font-size: 16px;
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+}
+
+.lista__link > a:hover {
+  color: hsl(213deg, 93%, 53%);
+}
+
+.rodape__texto {
+  color: hsl(0deg, 0%, 75%);
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.rodape__texto:last-child {
+  margin-bottom: 100px;
 }
